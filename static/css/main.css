@@ -20,10 +20,10 @@ body {
     font-weight: 800;
   }
   
-  .logo img {
+  img {
     padding: 5px;
-    height: 35px;
-    width: 120px;
+    height: 55px;
+    width: 150px;
   }
   
   .nav-links {
