@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LetGen</title>
+  <link rel="stylesheet" href="./../static/css/main.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="./../static/assets/openai.png" alt="Logo">
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <h1>LetGen</h1>
+    <form action="http://127.0.0.1:5000/fetch" method="POST">
+      <!-- <textarea id="text-area" name="input" placeholder="Enter the text"></textarea> -->
+      <div class="radio-buttons">
+        <label><input type="radio" name="choice" value="choice1"> Cover Letter</label>
+        <label><input type="radio" name="choice" value="choice2"> Leave Letter</label>
+        <label><input type="radio" name="choice" value="choice3"> Letter of Recommendation</label>
+      </div>
+      <input type="text" name="name" placeholder="Your Name">
+      <input type="text" name="job-role" placeholder="Your Job Role">
+      <input type="text" name="recipient-name" placeholder="Recipient's Name">
+      <input type="text" name="position" placeholder="Recipient's Position">
+      <input type="text" name="company" placeholder="Company Name">
+      <input type="text" name="description" placeholder="Job Description">
+      <!-- <button class="increase-decrease" onclick="changeValue('-')">-</button>
+      <input type="text" name="description-quantity" value="1">
+      <button class="increase-decrease" onclick="changeValue('+')">+</button> -->
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <footer>
+    <p>&copy; 2023 AI Text Detector | All rights reserved.</p>
+  </footer>
+
+  <script src="./../static/js/main.js"></script>
+</body>
+</html>

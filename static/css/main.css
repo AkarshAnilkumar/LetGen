@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #005C53;
+    padding: 8px;
+    color: #f9ead0;
+  }
+  ::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 1; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 800;
+  }
+  
+  .logo img {
+    padding: 5px;
+    height: 35px;
+    width: 120px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+
+  }
+  
+  .nav-links li {
+    margin-right: 15px;
+    padding-left: 30px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 30px;
+  }
+  
+  .nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .content {
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  h1 {
+    margin-bottom: 40px;
+    color: #000;
+  }
+  
+  textarea {
+    width: 80%;
+    height: 200px;
+    padding: 10px;
+    resize: none; 
+    background-color: rgb(214, 227, 220);
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(27, 26, 26);
+  
+  }
+  
+  button {
+    padding: 10px; /* Adjust vertical padding as needed */
+    margin-top: 10px;
+    width: 82%; /* Set the width of the button to match the text area */
+    height: 10%;
+    background-color: #005C53;
+    color: white;
+    font-weight: 200;
+    border: none;
+    cursor: pointer;
+    border-width: 15px;
+    border-color:#d3ad6c;
+    border-radius: 35px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #005C53;
+    color: #ffffff;
+    padding: 8px;
+    position: relative;
+    bottom: -30px;
+    width: 100%;
+  }
+/* Your existing styles */
+
+.radio-buttons {
+  display: inline;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.radio-buttons label {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 80%;
+  height: 40px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgb(214, 227, 220);
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px rgb(27, 26, 26);
+}
+
+.job-description {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.job-description input[type="text"] {
+  flex: 1;
+}
+
+.increase-decrease {
+  width: 40px;
+  height: 40px;
+  background-color: #005C53;
+  color: white;
+  font-weight: 200;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  
